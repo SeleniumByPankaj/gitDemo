@@ -18,6 +18,8 @@ public class LaunchGoogle {
 
 		String pageName = driver.getTitle();
 
+		System.out.println("this is getting printed from github");
+		
 		System.out.println("Title of the page is " + pageName);
 
 	}
