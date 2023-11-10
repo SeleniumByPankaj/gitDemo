@@ -22,4 +22,13 @@ public class BasicCalculator {
 		int sub = a-b;
 		System.out.println("subtraction of two numbers is "+sub);
 	}
+	
+	@Test (priority = 3)
+	public void multiplication() {
+		
+		int a = 15;
+		int b = 6;
+		int mul = a*b;
+		System.out.println("multiplication of two numbers is "+mul);
+	}
 }
